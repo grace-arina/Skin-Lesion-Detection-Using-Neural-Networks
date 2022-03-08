@@ -11,5 +11,6 @@ TensorBoard provides the visualization and tooling needed for machine learning e
 - Viewing histograms of weights, biases, or other tensors as they change over time
 - 
 To view my interactive Tensorboard scan the QR code below or Click [here](https://tensorboard.dev/experiment/UVAwdGFwQA6JBWJPZEWLPQ/#scalars)
+
 ![qr-code](https://user-images.githubusercontent.com/93217519/157250970-69819cec-2024-4550-8f8d-8c3d13acfb17.png)
 
