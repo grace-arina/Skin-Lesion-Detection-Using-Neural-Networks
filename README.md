@@ -12,5 +12,5 @@ TensorBoard provides the visualization and tooling needed for machine learning e
 - 
 To view my interactive Tensorboard scan the QR code below or Click [here](https://tensorboard.dev/experiment/UVAwdGFwQA6JBWJPZEWLPQ/#scalars)
 
-![qr-code](https://user-images.githubusercontent.com/93217519/157244592-42e2a3ce-9847-4a6c-9b36-d42125e3b08d.png)
+![qr-code](https://user-images.githubusercontent.com/93217519/157244592-42e2a3ce-9847-4a6c-9b36-d42125e3b08d.png =250x250)
 
