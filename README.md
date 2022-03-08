@@ -3,3 +3,10 @@ In cancer, there are over 200 different forms. Out of 200, melanoma is the deadl
 
 ## Dataset
 The project dataset is openly available on Kaggle(https://www.kaggle.com/drscarlat/melanoma).
+
+## Tensorboard
+TensorBoard provides the visualization and tooling needed for machine learning experimentation:
+- Tracking and visualizing metrics such as loss and accuracy
+- Visualizing the model graph (ops and layers)
+- Viewing histograms of weights, biases, or other tensors as they change over time
+To view my interactive Tensorboard scan the QR code below or Click [here](https://tensorboard.dev/experiment/UVAwdGFwQA6JBWJPZEWLPQ/#scalars)
