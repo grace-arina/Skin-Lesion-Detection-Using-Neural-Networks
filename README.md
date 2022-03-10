@@ -1,5 +1,7 @@
-# Skin-Lesion-Detection-Using-Neural-Networks
-In cancer, there are over 200 different forms. Out of 200, melanoma is the deadliest form of skin cancer. Among all the skin cancer type, melanoma is the least common skin cancer, but it is responsible for 75% of death. Melanoma skin cancer is highly curable if it gets identified at the early stages. The first step of Melanoma skin cancer diagnosis is to conduct a visual examination of the skin's affected area. This project aims to build an automated classification system based on image processing techniques to classify skin cancer using skin lesions images. The approach uses Convolutional Neural Network (CNN) to perform a binary classification from outlier lesions images. This reduction of a gap has the opportunity to impact millions of people positively.
+# Skin Lesion Detection Using Neural Networks
+![logo](https://user-images.githubusercontent.com/93217519/157762783-04e4699a-941c-45a7-a6ce-a7bae22adeec.jpeg)
+
+There are over 200 different forms. Out of 200, melanoma is the deadliest form of skin cancer. Among all the skin cancer type, melanoma is the least common skin cancer, but it is responsible for 75% of death. Melanoma skin cancer is highly curable if it gets identified at the early stages. The first step of Melanoma skin cancer diagnosis is to conduct a visual examination of the skin's affected area. This project aims to build an automated classification system based on image processing techniques to classify skin cancer using skin lesions images. The approach uses Convolutional Neural Network (CNN) to perform a binary classification from outlier lesions images. This reduction of a gap has the opportunity to impact millions of people positively.
 
 ## Dataset
 The project dataset is openly available on Kaggle(https://www.kaggle.com/drscarlat/melanoma).
@@ -7,9 +9,14 @@ The project dataset is openly available on Kaggle(https://www.kaggle.com/drscarl
 #### Sample Images from the Dataset:
 
 -The images below are labelled as Melanoma in the dataset.
+<img width="92" alt="Screen Shot 2022-03-09 at 09 32 15" src="https://user-images.githubusercontent.com/93217519/157761856-6d900aca-63e5-4b02-89ad-392f19401704.png">
+<img width="93" alt="Screen Shot 2022-03-09 at 09 31 59" src="https://user-images.githubusercontent.com/93217519/157761910-8da0cd74-d723-4281-9695-cad6a07f0069.png">
+<img width="92" alt="Screen Shot 2022-03-09 at 09 31 28" src="https://user-images.githubusercontent.com/93217519/157761912-67c66006-ce7b-4d85-a390-886781b97cc3.png">
 
 -The images below are labelled as NotMelanoma in the dataset.
-
+<img width="90" alt="Screen Shot 2022-03-10 at 17 01 14" src="https://user-images.githubusercontent.com/93217519/157762087-5dae3253-dd3f-4c8b-8a52-7d26cf6542b7.png">
+<img width="92" alt="Screen Shot 2022-03-10 at 17 01 05" src="https://user-images.githubusercontent.com/93217519/157762088-ebdc7997-1fe4-43c1-9dad-240441660851.png">
+<img width="91" alt="Screen Shot 2022-03-10 at 17 00 56" src="https://user-images.githubusercontent.com/93217519/157762089-0cae884c-fd02-430f-91d4-d8f25e3a3fa7.png">
 
 
 ## Data Preprocessing
