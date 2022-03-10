@@ -27,9 +27,10 @@ The target to predict is binary-melanoma i.e. Melanoma and Not Melanoma.
 
 ## Data Augmentation
 
-In a small size dataset, image augmentation is required to avoid overfitting the training dataset. The augmentation that helps to improve the prediction accuracy of the model is selected. The selected augmentation are as follows:
+In a small size dataset, image augmentation is required to avoid overfitting the training dataset. The augmentation that helps to improve the prediction accuracy of the model are as follows:
 - **Rotation:** rotates the image by a specified degree.
 - **Shearing:** shifts one part of the image like a parallelogram
+- **Horizontal flip:** randomly flipps half the images horizontally—relevant when there are no assumptions of horizontal asymmetry
 
 ## Network Configurations
 I used ensemble terminology to train diverse models. The model configuration is as follows:
@@ -44,9 +45,9 @@ I used ensemble terminology to train diverse models. The model configuration is 
 | Models        | Test Accuracy  |  # Trainable Params |Epochs |
 | ------------- |:-------------:| -----:|-----:|
 | Baseline      | 82.83% | 1,625,026 | 30 |
-| Efficent Net B4 (augmented)      | 89.53%     |   5,619,906 |47 |
+| Efficient Net B4 (augmented)      | 89.53%     |   5,619,906 |29 |
 | Efficient Net B4 (1 trainable layer) | 90.96%      | 5,619,906 |15 |
-| Efficeint Net B4 (3 trainable layer) | 92.59%      | 6,426,306 |10 |
+| Efficient Net B4 (3 trainable layer) | 92.59%      | 6,426,306 |10 |
 | ResNet 50 (augmented) | 93.23%      |    6,422,722 |30 |
 | ResNet 50 (3 trainable layers) | **93.91%**      |    6,426,818 |37 |
 | ResNet 50 (5 trainable layers) | 93.29%      |    7,477,442 |18 |
