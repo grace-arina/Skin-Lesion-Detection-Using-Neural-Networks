@@ -9,23 +9,25 @@ The project dataset is openly available on Kaggle(https://www.kaggle.com/drscarl
 #### Sample Images from the Dataset:
 
 -The images below are labelled as Melanoma in the dataset.
+
 <img width="92" alt="Screen Shot 2022-03-09 at 09 32 15" src="https://user-images.githubusercontent.com/93217519/157761856-6d900aca-63e5-4b02-89ad-392f19401704.png">
 <img width="93" alt="Screen Shot 2022-03-09 at 09 31 59" src="https://user-images.githubusercontent.com/93217519/157761910-8da0cd74-d723-4281-9695-cad6a07f0069.png">
 <img width="92" alt="Screen Shot 2022-03-09 at 09 31 28" src="https://user-images.githubusercontent.com/93217519/157761912-67c66006-ce7b-4d85-a390-886781b97cc3.png">
 
 -The images below are labelled as NotMelanoma in the dataset.
+
 <img width="90" alt="Screen Shot 2022-03-10 at 17 01 14" src="https://user-images.githubusercontent.com/93217519/157762087-5dae3253-dd3f-4c8b-8a52-7d26cf6542b7.png">
 <img width="92" alt="Screen Shot 2022-03-10 at 17 01 05" src="https://user-images.githubusercontent.com/93217519/157762088-ebdc7997-1fe4-43c1-9dad-240441660851.png">
 <img width="91" alt="Screen Shot 2022-03-10 at 17 00 56" src="https://user-images.githubusercontent.com/93217519/157762089-0cae884c-fd02-430f-91d4-d8f25e3a3fa7.png">
 
 
-## Data Preprocessing
+## Preprocessing
 
 In any machine learning project, it is critical to set up a trustworthy validation scheme, in order to properly evaluate and compare models. This is especially true if the dataset is small which is the case of this project.
 
 For a typical image classification problem, the standard approach is to take a deep CNN model (such as the most popular EffcientNet) trained on ImageNet, replace the last layer so that the output dimension equals the target's dimension, and fine tune it on the specific dataset.
 
-The target to predict in this year's (2020) competition is binary-benign (i.e. no melanoma) or malignant (i.e. melanoma). We noticed that the target information is included in the diagnosis column: target is malignant if and only if diagnosis is melanoma.
+The target to predict is binary-melanoma i.e. Melanoma and Not Melanoma. 
 
 ## Data Augmentation
 
@@ -42,15 +44,20 @@ I used ensemble terminology to train diverse models. The model configuration is 
 4. **Optimizer**: *Adam*. As we have sparse data, Adam is used because of the adaptive learning rate.
 
 ### Results
-| Models        | Test Accuracy  |  # Trainable Params |
+
+| Models        | Test Accuracy  |  # Trainable Params |Epochs |
 | ------------- |:-------------:| -----:|
-| Baseline      | 82.83% | 1,625,026 | 
-| Efficent Net B4      | 81.24%     |   5,619,906 |
-| Efficient Net B4 (1 trainable layer) | 90.96%      | 5,619,906 |
-| Efficeint Net B4 (3 trainable layer) | 92.59%      | 6,426,306 |
-| ResNet 50  | 93.23%      |    6,422,722 |
-| ResNet 50 (3 trainable layers) | 93.91%      |    6,426,818 |
-| ResNet 50 (5 trainable layers) | 93.29%      |    7,477,442 |
+| Baseline      | 82.83% | 1,625,026 | 30 |
+| Efficent Net B4 (augmented)      | 81.24%     |   5,619,906 |47 |
+| Efficient Net B4 (1 trainable layer) | 90.96%      | 5,619,906 |15 |
+| Efficeint Net B4 (3 trainable layer) | 92.59%      | 6,426,306 |10 |
+| ResNet 50 (augmented) | 93.23%      |    6,422,722 |30 |
+| ResNet 50 (3 trainable layers) | **93.91%**      |    6,426,818 |37 |
+| ResNet 50 (5 trainable layers) | 93.29%      |    7,477,442 |18 |
+
+The ResNet ensemble mechanism significantly improves the average prediction performance and is able to generalise well as the models are getting higher accuracy on the validation set compared to the training set.
+<img width="384" alt="Screen Shot 2022-03-10 at 18 10 09" src="https://user-images.githubusercontent.com/93217519/157770559-495d48a8-e8b4-4e00-96e9-c72b2f7c629a.png">
+<img width="1680" alt="Screen Shot 2022-03-10 at 18 10 07" src="https://user-images.githubusercontent.com/93217519/157770561-4f8cc10b-c4df-4c5c-963b-bb311a9afdbc.png">
 
 ## Tensorboard
 TensorBoard provides the visualization and tooling needed for machine learning experimentation:
