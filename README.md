@@ -46,9 +46,9 @@ I used ensemble terminology to train diverse models. The model configuration is 
 ### Results
 
 | Models        | Test Accuracy  |  # Trainable Params |Epochs |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -----:|-----:|
 | Baseline      | 82.83% | 1,625,026 | 30 |
-| Efficent Net B4 (augmented)      | 81.24%     |   5,619,906 |47 |
+| Efficent Net B4 (augmented)      | 89.53%     |   5,619,906 |47 |
 | Efficient Net B4 (1 trainable layer) | 90.96%      | 5,619,906 |15 |
 | Efficeint Net B4 (3 trainable layer) | 92.59%      | 6,426,306 |10 |
 | ResNet 50 (augmented) | 93.23%      |    6,422,722 |30 |
@@ -56,8 +56,9 @@ I used ensemble terminology to train diverse models. The model configuration is 
 | ResNet 50 (5 trainable layers) | 93.29%      |    7,477,442 |18 |
 
 The ResNet ensemble mechanism significantly improves the average prediction performance and is able to generalise well as the models are getting higher accuracy on the validation set compared to the training set.
+<img width="400" alt="Screen Shot 2022-03-10 at 18 16 39" src="https://user-images.githubusercontent.com/93217519/157771308-f8b4ce49-a6cc-4c13-b73d-21a41cec1298.png">
 <img width="384" alt="Screen Shot 2022-03-10 at 18 10 09" src="https://user-images.githubusercontent.com/93217519/157770559-495d48a8-e8b4-4e00-96e9-c72b2f7c629a.png">
-<img width="1680" alt="Screen Shot 2022-03-10 at 18 10 07" src="https://user-images.githubusercontent.com/93217519/157770561-4f8cc10b-c4df-4c5c-963b-bb311a9afdbc.png">
+
 
 ## Tensorboard
 TensorBoard provides the visualization and tooling needed for machine learning experimentation:
