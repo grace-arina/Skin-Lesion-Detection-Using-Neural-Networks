@@ -10,11 +10,11 @@ The project dataset is openly available on Kaggle(https://www.kaggle.com/drscarl
 
 -The images below are labelled as Melanoma in the dataset.
 
-<img width="92" alt="Screen Shot 2022-03-09 at 09 32 15" src="https://user-images.githubusercontent.com/93217519/157761856-6d900aca-63e5-4b02-89ad-392f19401704.png"> <img width="93" alt="Screen Shot 2022-03-09 at 09 31 59" src="https://user-images.githubusercontent.com/93217519/157761910-8da0cd74-d723-4281-9695-cad6a07f0069.png"> <img width="92" alt="Screen Shot 2022-03-09 at 09 31 28" src="https://user-images.githubusercontent.com/93217519/157761912-67c66006-ce7b-4d85-a390-886781b97cc3.png">
+<img width="100" alt="Screen Shot 2022-03-09 at 09 32 15" src="https://user-images.githubusercontent.com/93217519/157761856-6d900aca-63e5-4b02-89ad-392f19401704.png"> <img width="100" alt="Screen Shot 2022-03-09 at 09 31 59" src="https://user-images.githubusercontent.com/93217519/157761910-8da0cd74-d723-4281-9695-cad6a07f0069.png"> <img width="100" alt="Screen Shot 2022-03-09 at 09 31 28" src="https://user-images.githubusercontent.com/93217519/157761912-67c66006-ce7b-4d85-a390-886781b97cc3.png">
 
 -The images below are labelled as NotMelanoma in the dataset.
 
-<img width="90" alt="Screen Shot 2022-03-10 at 17 01 14" src="https://user-images.githubusercontent.com/93217519/157762087-5dae3253-dd3f-4c8b-8a52-7d26cf6542b7.png"> <img width="92" alt="Screen Shot 2022-03-10 at 17 01 05" src="https://user-images.githubusercontent.com/93217519/157762088-ebdc7997-1fe4-43c1-9dad-240441660851.png"> <img width="91" alt="Screen Shot 2022-03-10 at 17 00 56" src="https://user-images.githubusercontent.com/93217519/157762089-0cae884c-fd02-430f-91d4-d8f25e3a3fa7.png">
+<img width="100" alt="Screen Shot 2022-03-10 at 17 01 14" src="https://user-images.githubusercontent.com/93217519/157762087-5dae3253-dd3f-4c8b-8a52-7d26cf6542b7.png"> <img width="100" alt="Screen Shot 2022-03-10 at 17 01 05" src="https://user-images.githubusercontent.com/93217519/157762088-ebdc7997-1fe4-43c1-9dad-240441660851.png"> <img width="100" alt="Screen Shot 2022-03-10 at 17 00 56" src="https://user-images.githubusercontent.com/93217519/157762089-0cae884c-fd02-430f-91d4-d8f25e3a3fa7.png">
 
 
 ## Preprocessing
