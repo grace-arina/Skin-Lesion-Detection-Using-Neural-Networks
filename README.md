@@ -45,9 +45,9 @@ I used ensemble terminology to train diverse models. The model configuration is 
 | Models        | Test Accuracy  |  # Trainable Params |Epochs |
 | ------------- |:-------------:| -----:|-----:|
 | Baseline      | 82.83% | 1,625,026 | 30 |
-| Efficient Net B4 (augmented)      | 89.53%     |   5,619,906 |29 |
-| Efficient Net B4 (1 trainable layer) | 90.96%      | 5,619,906 |15 |
-| Efficient Net B4 (3 trainable layer) | 92.59%      | 6,426,306 |10 |
+| EfficientNetB4 (augmented)      | 89.53%     |   5,619,906 |29 |
+| EfficientNetB4 (1 trainable layer) | 90.96%      | 5,619,906 |15 |
+| EfficientNetB4 (3 trainable layer) | 92.59%      | 6,426,306 |10 |
 | ResNet 50 (augmented) | 93.23%      |    6,422,722 |30 |
 | ResNet 50 (3 trainable layers) | **93.91%**      |    6,426,818 |37 |
 | ResNet 50 (5 trainable layers) | 93.29%      |    7,477,442 |18 |
